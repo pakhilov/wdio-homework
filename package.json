@@ -1,0 +1,31 @@
+{
+  "name": "test_homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pakhilov/wdio-homework.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pakhilov/wdio-homework/issues"
+  },
+  "homepage": "https://github.com/pakhilov/wdio-homework#readme",
+  "dependencies": {
+    "@wdio/cli": "^5.18.1",
+    "webdriverio": "^5.18.0"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^5.16.16",
+    "@wdio/local-runner": "^5.18.0",
+    "@wdio/mocha-framework": "^5.16.15",
+    "@wdio/selenium-standalone-service": "^5.16.10",
+    "@wdio/spec-reporter": "^5.16.11",
+    "@wdio/sync": "^5.17.0"
+  }
+}
