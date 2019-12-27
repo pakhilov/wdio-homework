@@ -1,0 +1,123 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1577385252710' stop='1577385260780'>
+    <name>Browser</name>
+    <title>Browser</title>
+    <test-cases>
+        <test-case start='1577385252710' status='failed' stop='1577385257843'>
+            <name>Tab title</name>
+            <title>Tab title</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.88'/>
+            </parameters>
+            <steps>
+                <step start='1577385252714' status='passed' stop='1577385255386'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='d803c7a4-8ac5-41a6-9722-345d14e9179a-attachment.json' type='application/json' size='44'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1577385255386' status='passed' stop='1577385255397'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='66057643-ccd0-43bb-983e-2bc851985ac2-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1577385257408' status='passed' stop='1577385257842'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='460c3cf2-49a3-439a-a9cc-43627ee84333-attachment.png' type='image/png' size='48295'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'Intellectual Games Club' == 'Bug Tracker'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'Intellectual Games Club' == 'Bug Tracker'
+                    at Context.&lt;anonymous> (/Users/dmitrypakhilov/projects/test_homework/test/specs/browser.js:9:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577385257844' status='failed' stop='1577385260777'>
+            <name>Header is displayed</name>
+            <title>Header is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.88'/>
+            </parameters>
+            <steps>
+                <step start='1577385257846' status='passed' stop='1577385258318'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='5d6037ec-1615-40bd-bba2-0ec9f98f3adc-attachment.json' type='application/json' size='38'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1577385258318' status='passed' stop='1577385258328'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='53efce15-2949-41d8-b517-ca1d4f3d5ff6-attachment.json' type='application/json' size='25'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1577385260335' status='passed' stop='1577385260777'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='58d016c4-7edc-4dae-8211-22f319f07957-attachment.png' type='image/png' size='276046'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>'Intellectual Games Club' == 'Bug Tracker'</message>
+                <stack-trace>AssertionError [ERR_ASSERTION]: 'Intellectual Games Club' == 'Bug Tracker'
+                    at Context.&lt;anonymous> (/Users/dmitrypakhilov/projects/test_homework/test/specs/browser.js:16:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1577385260778' status='passed' stop='1577385260779'>
+            <name>App/pages container is displayed</name>
+            <title>App/pages container is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1577385260779' status='passed' stop='1577385260779'>
+            <name>Footer is displayed</name>
+            <title>Footer is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-79.0.3945.88'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
